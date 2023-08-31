@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media screen and (min-width: 767px) {
+    .main{
+        float: right;
+        width: calc(100% - 35vh)
+    }
+
+    .side-1{
+        float: left;
+    }
+
+    .nav-1{
+        float: right;
+        width: calc(100% - 30vh);
+    }
+
+    .index-1{
+        float: right;
+        width: calc(100% - 35vh);
+    }
+
+    .index-2{
+        float: right;
+        width: calc(100% - 40vh);
+    }
+  }
